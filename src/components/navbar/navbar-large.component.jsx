@@ -10,8 +10,8 @@ const NavBarLargeComponent = ({NavBarButtonComponent,CountryDropDown,NavbarNavig
            </div>
            <div className="flex items-center">
                 <NavbarNavigationComponent title="Home" to="/" />
-                <NavbarNavigationComponent title="Customer due diligence" to="/customer" />
-                <NavbarNavigationComponent title="Investing in Africa" to="/invest" />
+                <NavbarNavigationComponent title="Customer due diligence" to="/customer" disabled={true} />
+                <NavbarNavigationComponent title="Investing in Africa" to="/invest" disabled={true} />
                 <NavbarNavigationComponent title="News & Events" to="/newsandevents" />               
            </div>
         </div>

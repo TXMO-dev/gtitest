@@ -17,12 +17,12 @@ const NavBarSmallComponent = ({toggleNav,setToggleNav,AiOutlineClose, CountryDro
                         setToggleNav(false);  
                         
                     }}>Home</span>
-                    <span class="cursor-pointer mb-[40px] uppercase text-[18px]" onClick={() => {
+                    <span style={{pointerEvents:'none'}} class="cursor-pointer mb-[40px] uppercase text-[18px]" onClick={() => {
                         navigate("/customer")
                         setToggleNav(false);
                         
                     }}>Customer due diligence</span>
-                    <span class="cursor-pointer mb-[40px] uppercase text-[18px]" onClick={() => {
+                    <span style={{pointerEvents:'none'}}  class="cursor-pointer mb-[40px] uppercase text-[18px]" onClick={() => {
                         navigate("/invest")
                         setToggleNav(false);
                         
